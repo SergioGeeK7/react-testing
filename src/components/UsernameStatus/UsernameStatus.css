@@ -1,0 +1,13 @@
+.UsernameStatus {
+  color: #333333;
+  display: block;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding: 0 2.5%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

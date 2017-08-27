@@ -1,0 +1,13 @@
+.ConversationPreview {
+  background: #FFFFFF;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 10px 5px;
+}
+
+.ConversationPreview:first-of-type {
+  border-top: 1px solid #EEEEEE;
+}
+
+.ConversationPreview p {
+  margin: 0;
+}
