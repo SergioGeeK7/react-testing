@@ -4,14 +4,10 @@ import Username from '../Username/Username';
 import MessagePreview from '../MessagePreview/MessagePreview';
 import './ConversationPreview.css';
 
-import { Link } from 'react-router-dom';
-
-const ConversationPreview = ({ id, withUser, lastMessage }) => (
+const ConversationPreview = ({ withUser, lastMessage }) => (
   <article className="ConversationPreview">
-    <Link to={`/conversation/${id}`}>
-      <Username username={ withUser } />
-      <MessagePreview message={ lastMessage } />
-    </Link>
+    <Username username={ withUser } />
+    <MessagePreview message={ lastMessage } />
   </article>
 );
 
