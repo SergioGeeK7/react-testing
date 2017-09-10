@@ -11,3 +11,7 @@
 .ConversationPreview p {
   margin: 0;
 }
+
+.ConversationPreview a {
+  text-decoration: none;
+}
