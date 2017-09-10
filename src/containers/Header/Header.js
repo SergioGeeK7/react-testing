@@ -20,7 +20,7 @@ class Header extends Component {
   componentDidMount() {
     const username = 'Username';
     const userStatus = 'User status';
-    const userAvatar = 'http://www.behindthevoiceactors.com/_img/chars/death-gun-sword-art-online-ii-5.01.jpg'
+    const userAvatar = 'https://docs.microsoft.com/en-us/mobile-center/media/logo_react.svg'
 
     this.setState({
       username,
