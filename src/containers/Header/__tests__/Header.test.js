@@ -48,7 +48,7 @@ describe('Header', () => {
   });
 
   it('should have an UserAvatar component with src props', () => {
-    const userAvatar = 'https://docs.microsoft.com/en-us/mobile-center/media/logo_react.svg';
+    const userAvatar = 'http://www.behindthevoiceactors.com/_img/chars/death-gun-sword-art-online-ii-5.01.jpg';
     const HeaderDOM = mount(<Header />);
 
     // As we need to actually mount the Header component use Enzyme's mount method.
